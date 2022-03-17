@@ -1,6 +1,7 @@
 //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=57c048c9f23d40a5a79648f61d282f79
 const searchButton = document.getElementById("search-country");
 const textBox = document.getElementById("search-term");
+const form = document.querySelector("form");
 
 const country = document.getElementById("country");
 const description = document.getElementById("description");
@@ -18,7 +19,7 @@ const tempUsed = "Fahrenheit";
 const openWeather = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 searchButton.addEventListener("click", searchLocation);
-searchButton.addEventListener("submit", searchLocation);
+// form.addEventListener("submit", searchLocation);
 
 function searchLocation() {
     // console.log(textBox.value);

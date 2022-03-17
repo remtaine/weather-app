@@ -40,7 +40,7 @@ input[type="text"] {
     /* height: fit-content; */
 }
 
-input[type="submit"] {
+button {
     background-color: var(--color3);
     /* border-style: none; */
     border-radius: 50px;
