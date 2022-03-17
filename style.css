@@ -22,22 +22,22 @@ body {
 header {
     display: flex;
     justify-content: center;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 60px;
     background-color: var(--color4);
+    height: 80px;
 }
-
 
 form {
-    /* display: grid;
-    grid-template-columns: 300px 100px;
-    gap: 10px; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+input[type="text"] {
+    /* background-color: #d6445c; */
+    /* height: fit-content; */
 }
 
 input[type="button"] {
@@ -47,12 +47,29 @@ input[type="button"] {
     padding: 10px;
 } 
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+section * {
+    margin: 5px 0;
+}
+
+section h2 {
+    margin: 10px 0 20px;
+}
 footer {
     display: flex;
     justify-content: center;
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    margin: 20px 0 10px;
 }
 
 footer a {
@@ -60,8 +77,6 @@ footer a {
     color: var(--color2);
     font-weight: bold;
     text-decoration: none;
-
-
 }
 
 footer a:hover {
