@@ -15,7 +15,7 @@ const searchTerm = "London,uk";
 // const searchTerm = "ssdf";
 
 const tempUsed = "Fahrenheit";
-const openWeather = "http://api.openweathermap.org/data/2.5/weather?q=";
+const openWeather = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 searchButton.addEventListener("click", searchLocation);
 // searchButton.addEventListener("submit", searchLocation);
