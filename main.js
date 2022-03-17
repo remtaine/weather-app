@@ -18,7 +18,7 @@ const tempUsed = "Fahrenheit";
 const openWeather = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 searchButton.addEventListener("click", searchLocation);
-// searchButton.addEventListener("submit", searchLocation);
+searchButton.addEventListener("submit", searchLocation);
 
 function searchLocation() {
     // console.log(textBox.value);
